@@ -78,8 +78,7 @@ jobs:
         run: git diff --exit-code
 
   lint:
-    runs-on:
-      group: "APM Larger Runners"
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744 # v3.6.0
@@ -112,8 +111,7 @@ jobs:
           workdir: internal/orchestrion/_integration
 
   test-contrib:
-    runs-on:
-      group: "APM Larger Runners"
+    runs-on: ubuntu-latest
     env:
        TEST_RESULTS: /tmp/test-results # path to where test results will be saved
        INTEGRATION: true
@@ -324,8 +322,7 @@ jobs:
               go test -v ./...
 
   test-core:
-    runs-on:
-      group: "APM Larger Runners"
+    runs-on: ubuntu-latest
     env:
        TEST_RESULTS: /tmp/test-results # path to where test results will be saved
        INTEGRATION: true
