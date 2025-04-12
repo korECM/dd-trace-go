@@ -61,6 +61,7 @@ require (
 	github.com/twitchtv/twirp v8.1.3+incompatible
 	github.com/valkey-io/valkey-go v1.0.56
 	github.com/vektah/gqlparser/v2 v2.5.21
+	github.com/valyala/fasthttp v1.58.0
 	github.com/xlab/treeprint v1.2.0
 	go.mongodb.org/mongo-driver v1.17.1
 	google.golang.org/api v0.213.0
@@ -128,6 +129,7 @@ require (
 	github.com/DataDog/dd-trace-go/contrib/sirupsen/logrus/v2 v2.1.0-dev // indirect
 	github.com/DataDog/dd-trace-go/contrib/twitchtv/twirp/v2 v2.1.0-dev // indirect
 	github.com/DataDog/dd-trace-go/contrib/valkey-io/valkey-go/v2 v2.1.0-dev // indirect
+	github.com/DataDog/dd-trace-go/contrib/valyala/fasthttp/v2 v2.1.0-dev // indirect
 	github.com/DataDog/go-runtime-metrics-internal v0.0.4-0.20250319104955-81009b9bad14 // indirect
 	github.com/DataDog/go-sqllexer v0.1.3 // indirect
 	github.com/DataDog/go-tuf v1.1.0-0.5.2 // indirect
@@ -311,7 +313,6 @@ require (
 	github.com/ugorji/go/codec v1.2.12 // indirect
 	github.com/urfave/cli/v2 v2.27.6 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
-	github.com/valyala/fasthttp v1.58.0 // indirect
 	github.com/valyala/fasttemplate v1.2.2 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
