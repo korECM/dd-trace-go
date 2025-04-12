@@ -17,11 +17,6 @@ on:
   pull_request:
   merge_group:
   push:
-    branches:
-      - release-v*
-    tags-ignore:
-      - 'contrib/**'
-      - 'instrumentation/**'
 
 permissions: read-all
 
