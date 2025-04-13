@@ -2,15 +2,8 @@ name: Pull Request Tests
 
 on:
   pull_request:
-    branches:
-      - "**"
   merge_group:
   push:
-    branches:
-      - 'mq-working-branch-**'
-    tags-ignore:
-      - 'contrib/**'
-      - 'instrumentation/**'
 
 concurrency:
   group: ${{ github.ref }}
